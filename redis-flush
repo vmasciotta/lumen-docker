@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-
 docker-compose exec redis redis-cli -h redis-session flushall
 docker-compose exec redis redis-cli -h redis flushall
